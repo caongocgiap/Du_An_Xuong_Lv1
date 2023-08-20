@@ -1,0 +1,361 @@
+* {
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.clear {
+    clear: both;
+}
+
+/* #container{
+    width: 1920px;
+    margin: 0 auto;
+} */
+
+/* .logo{
+    width: 114px;
+    height: 83px;
+    
+
+} */
+
+.nav-link {
+    font-size: 22px;
+}
+
+.nav-item {
+    padding: 0 40px;
+}
+
+.user {
+    width: 63px;
+    height: 63px;
+}
+
+.font-user {
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+}
+
+.nav-heading {
+    position: relative;
+}
+
+.sub-nav {
+    position: absolute;
+    right: 0;
+}
+
+#banner .container .row-banner {
+    background-image: url("/literature/img/Rectangle\ 193.png");
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+
+.bordered-image {}
+
+#banner .container .row-banner .img {
+    position: relative;
+
+}
+
+#banner .container .img img {
+    position: absolute;
+    width: 100%;
+    /* margin-left: 50px; */
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.information-banner {
+    border-radius: 20px;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.80);
+    padding: 0 50px;
+
+
+}
+
+.row-banner .col-9 {
+    padding: 33px;
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 48px;
+}
+
+.title p {
+    color: #000;
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: 0.6px;
+}
+
+.title-button {
+    width: 183.163px;
+    height: 63px;
+    border: none;
+    border-radius: 12px;
+    background: #49BBBD;
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.text-title {
+    color: rgba(45, 52, 54, 0.70);
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.text-main-title {
+    color: #2D3436;
+    font-family: 'Inter', sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.Evaluate {
+    margin-top: 25px;
+    padding-bottom: 36px;
+}
+
+.Evaluate .icon-Evaluate {
+    display: flex;
+    justify-content: space-around;
+}
+
+.Evaluate .col-5 {
+    position: relative;
+}
+
+.Evaluate .col-5 div {
+    position: absolute;
+    right: 0;
+}
+
+#button {
+    margin-top: 68px;
+}
+
+#button button {
+    margin: 0 14px;
+    width: 140px;
+    height: 63px;
+    border-radius: 12px;
+    background: rgba(187, 187, 187, 0.50);
+    color: #696969;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    border: none;
+}
+
+#button .Book {
+    background-color: rgba(73, 187, 189, 1);
+    color: #FFF;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+#button button:hover {
+    color: #FFF;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    background-color: rgba(73, 187, 189, 1);
+}
+
+#content .title-content {
+    color: #000;
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: 0.6px;
+    margin: 68px 0 49px 0;
+}
+
+#content .content-img img {
+    width: 100%;
+}
+
+#content .row-content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 28px;
+}
+
+#content .row-content .text {
+    display: inline;
+    float: left;
+    color: rgba(0, 0, 0, 0.80);
+    font-size: 25px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+}
+
+#content .row-content .price {
+    display: inline;
+    float: right;
+    color: rgba(73, 187, 189, 0.80);
+    font-size: 30px;
+    font-weight: 800;
+    letter-spacing: 0.6px;
+}
+
+#content .box .border {
+    border-radius: 10px;
+
+    box-shadow: 2px 2px 10px 2px rgba(0, 0, 0, 0.25);
+}
+
+.pre a,
+.next a {
+    color: #49BBBD;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 900;
+    width: 70px;
+    height: 70px;
+    background-color: rgba(73, 187, 189, 0.2);
+}
+.pre a:hover{
+    background-color: rgba(73, 187, 189, 1);
+    color: white;
+}
+.next a:hover{
+    background-color: rgba(73, 187, 189, 1);
+    color: white;
+}
+
+.box-page .number {
+    color: #000;
+    font-size: 30px;
+    font-weight: 400;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+}
+.box-page .between{
+    color: white;
+    background-color: rgba(73, 187, 189, 1);
+}
+
+.dieu-huong{
+    margin: 52px;
+}
+footer {
+    background: #252641;
+    ;
+}
+
+footer .row img {
+    width: 114px;
+    height: 83px;
+}
+
+footer .row #mycanvas {
+    margin: 0 41px 0 77px;
+}
+
+footer .logo-footer {
+    display: flex;
+    justify-content: center;
+}
+
+footer .logo-footer p {
+    color: #FFF;
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: 0.88px;
+}
+
+footer .logo-footer .vertical {
+    display: block;
+}
+
+footer .logo-footer {
+    margin-top: 74px;
+    margin-bottom: 95px;
+}
+
+footer .foot-text p {
+    color: #B2B3CF;
+    text-align: center;
+    font-size: 26px;
+    font-weight: 500;
+    letter-spacing: 1.04px;
+}
+
+footer form {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 96px;
+}
+
+footer form .bg {
+    background-color: #49BBBD;
+    color: #FFF;
+    font-size: 22px;
+    font-weight: 500;
+    width: 179px;
+    height: 60px;
+    border-radius: 60px;
+}
+
+footer form .foot-input {
+    width: 400px;
+    height: 60px;
+    border-radius: 80px;
+    border: 1px solid #83839A;
+
+    background-color: #252641;
+}
+
+footer form .foot-input::placeholder {
+    color: #83839A;
+    transform: translateX(30px);
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 0.8px;
+}
+
+.place {
+    text-align: center;
+    /* transform: translateX(50%); */
+    margin-bottom: 20px;
+}
+
+.place canvas {
+
+    margin: 0 20px;
+}
+
+.place p {
+    display: inline-block;
+    color: #B2B3CF;
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: 0.88px;
+}
+
+.time {
+    color: #B2B3CF;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: 0.88px;
+    margin-bottom: 40px;
+}
