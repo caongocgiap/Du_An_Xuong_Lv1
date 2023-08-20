@@ -1,0 +1,18 @@
+var mycanvas = document.getElementById('mycanvas');
+var ctx = mycanvas.getContext('2d');
+ctx.strokeStyle = "#626381";
+ctx.moveTo(5,0);
+ctx.lineTo(5,83);
+ctx.stroke();
+var mycanvas2 = document.getElementById('mycanvas2');
+var c = mycanvas2.getContext('2d');
+c.strokeStyle = "#626381";
+c.moveTo(2,0);
+c.lineTo(2,17);
+c.stroke();
+var mycanvas3 = document.getElementById('mycanvas3');
+var tx = mycanvas3.getContext('2d');
+tx.strokeStyle = "#626381";
+tx.moveTo(2,0);
+tx.lineTo(2,17);
+tx.stroke();
