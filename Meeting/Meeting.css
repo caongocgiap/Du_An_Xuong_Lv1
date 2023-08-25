@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+p {
+    margin-bottom: 0;
+    color: #252641;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 180%;
+    letter-spacing: 0.28px;
+    margin-bottom: 0;
+}
+
+.font_title {
+    color: #252641;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.font_title_small {
+    color: #252641;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.component_right {
+    width: 1069px;
+    height: 153px;
+    border-radius: 26px;
+    background: #FFF;
+    padding: 35px 50px 35px 35px;
+}
+
+.box {
+    width: 1920px;
+    height: 1453px;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1920' height='1453' viewBox='0 0 1920 1453' fill='none'%3E%3Cpath opacity='0.2' d='M0 0H1920V1453H0V0Z' fill='%239DCCFF'/%3E%3C/svg%3E");
+}
+
+.btn_back {
+    height: 50px;
+    width: 50px;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='50' height='50' viewBox='0 0 50 50' fill='none'%3E%3Crect width='50' height='50' fill='%2349BBBD'/%3E%3Cline x1='12' y1='24.5' x2='38' y2='24.5' stroke='white'/%3E%3Cline x1='12.1582' y1='24.3012' x2='19.1582' y2='17.3012' stroke='white'/%3E%3Cline x1='12.6077' y1='24.623' x2='20.0725' y2='31.1251' stroke='white'/%3E%3C/svg%3E");
+}
+
+.icon_setting {
+    color: rgba(37, 38, 65, 0.50);
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180%;
+    letter-spacing: 0.7px;
+}
+
+.banner {
+    width: 1186px;
+    height: 1076px;
+    padding-right: 53px;
+    margin-top: 39px;
+    flex-shrink: 0;
+    border-radius: 24px;
+    background: url('img/portrait-teacher-giving-online-class 1.png'), lightgray 50% / cover no-repeat;
+    position: relative;
+}
+
+.container_img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 209px;
+    height: 169.455px;
+    border-radius: 17px;
+    background: #FFF;
+}
+
+.img_con {
+    width: 198.853px;
+    height: 160.461px;
+    border-radius: 13.257px;
+    background: #C4C4C4;
+}
+
+.cong_cu {
+    width: 1085px;
+    height: 141.908px;
+    border-radius: 30px;
+    background: #E6F2FF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    position: absolute;
+    bottom: 34px;
+    right: 51px;
+}
+
+.container_congcu {
+    width: 80px;
+    height: 66.78px;
+    border-radius: 13px;
+    background: #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 15px;
+}
+
+.cong_cu_con {
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.right_top {
+    width: 498px;
+    height: 769px;
+    border-radius: 15px;
+    background: #FFF;
+    margin-left: 35px;
+}
+
+.right_bottom {
+    width: 498px;
+    height: 470px;
+    border-radius: 15px;
+    background: #FFF;
+    margin-top: 30px;
+    margin-left: 35px;
+}
+
+.process_child {
+    width: 85px;
+    height: 5px;
+    background: #49BBBD;
+    margin-right: 3px;
+}
+
+.get_started {
+    width: 437px;
+    height: 74px;
+    border-radius: 19px;
+    border: 1px solid rgba(73, 187, 189, 0.30);
+    background: #FFF;
+}
+
+.structuors {
+    width: 437px;
+    height: 242px;
+    fill: #FFF;
+    border: 1px solid #49BBBD;
+    border-radius: 19px;
+}
+
+.icon_up {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 32px;
+}
+
+.card_bookforyou {
+    width: 205px;
+    height: 309px;
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 2px 2px 10px 1px rgba(0, 0, 0, 0.25);
+}
+
+.card_img {
+    width: 177px;
+    height: 163px;
+    border-radius: 16px;
+}
+
+.dollars {
+    color: #49BBBD;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
