@@ -302,7 +302,7 @@ body {
 
 .time {
      display: flex;
-
+     align-items: center;
 }
 
 .time img {
