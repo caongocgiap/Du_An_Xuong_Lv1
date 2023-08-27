@@ -1,0 +1,382 @@
+* {
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.btn-back {
+    width: 50px;
+    height: 50px;
+    background-color: rgba(73, 187, 189, 1);
+    margin-top: 26px;
+
+}
+
+.btn-back a {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+
+}
+
+.btn-back a i {
+    margin-left: 50%;
+    transform: translateX(-50%);
+    color: white;
+}
+
+.pd {
+    padding: 0 30px;
+}
+
+.menu-left p {
+    color: #252641;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 20px;
+    margin-top: 47px;
+}
+
+
+.content-menu .content-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 19px 25px;
+}
+
+
+.content-menu .content path {
+    color: #252641;
+
+}
+
+.content-menu .content svg {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.content-menu .content p {
+    margin: 0;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.content-menu .content {
+    margin-bottom: 12px;
+}
+
+.content-menu .content-blue {
+    border-radius: 12px;
+    background: rgba(157, 204, 255, 0.30);
+}
+
+.content-menu .content-brown {
+    border-radius: 12px;
+    background: rgba(244, 140, 6, 0.30);
+}
+
+.content-menu .content-red {
+    border-radius: 12px;
+    background: rgba(238, 100, 91, 0.30);
+}
+
+.content-menu .content:hover {
+    background: rgba(73, 187, 189, 1);
+}
+
+.content-menu .content:hover path {
+    fill: #fff;
+}
+
+.content-menu .content:hover .lesson {
+    color: #fff;
+}
+
+.information-learn {
+    padding: 30px 60px;
+    background: #49BBBD;
+}
+
+.information-learn .topic {
+    color: #FFF;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.information-learn .sub-text {
+    display: flex;
+    justify-content: space-between;
+}
+
+.information-learn .sub-text p {
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.information {
+    padding: 50px;
+    height: 100%;
+    background: rgba(157, 204, 255, 0.2);
+}
+
+.information .video {
+    margin-bottom: 30px;
+}
+
+.information-text .text {
+    color: #252641;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.information-text .sub-text {
+    color: #696984;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.36px;
+    /* text-align: justify; */
+}
+
+.user {
+    padding: 28px;
+    border-radius: 15px;
+    background: rgba(244, 140, 6, 0.30);
+}
+
+.sub-user {
+    display: flex;
+}
+
+.sub-user .evaluate {
+    margin: 0 0 0 20px;
+}
+
+.sub-user .evaluate p {
+    margin: 0;
+    color: #2D3436;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.sub-user .evaluate img {
+    margin-top: 10px;
+}
+
+.user .text {
+    color: #696984;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.36px;
+    margin-top: 30px;
+}
+
+.student {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0;
+}
+
+.instruction button {
+
+    width: 50px;
+    height: 50px;
+    color: white;
+    font-size: 24px;
+    font-weight: 900;
+    border: none;
+    background-color: rgba(73, 187, 189, 1);
+    border-radius: 5px;
+
+
+}
+
+.instruction button:hover {
+    background-color: rgba(73, 187, 189, 0.5);
+}
+
+.student p {
+    color: #000;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.6px;
+}
+
+/* .instruction {
+    position: absolute;
+    display: inline;
+    bottom: 66px;
+    right: 137px;
+} */
+.wrapper .carousel {
+    display: flex;
+    overflow: hidden;
+    scroll-behavior: smooth;
+}
+
+.carousel.dragging {
+    cursor: grab;
+    scroll-behavior: auto;
+}
+
+.carousel.dragging .box-slider {
+    pointer-events: none;
+}
+
+.wrapper {
+    max-width: 100%;
+    position: relative;
+
+}
+
+
+
+.carousel .slider {
+    padding: 35px;
+    /* padding-left: 20px; */
+
+    /* margin-left: 20px; */
+
+    border-radius: 20px;
+    background: #FFF;
+}
+
+
+
+
+/* .carousel .box-slider:first-child {
+    padding-left: 0px;
+
+} */
+@media screen and (max-width:1200px) {
+    .box-slider {
+
+
+        width: calc(100% / 3);
+
+
+    }
+}
+
+@media screen and (max-width:992px) {
+    .box-slider {
+
+
+        width: calc(100% / 2);
+
+
+    }
+}
+
+@media screen and (max-width:500px) {
+    .box-slider {
+
+
+        width: calc(100% / 1);
+
+
+    }
+}
+
+
+.box-slider {
+
+
+    width: calc(100% / 3);
+    flex-grow: 0;
+    flex-shrink: 0;
+    padding-left: 20px;
+
+}
+
+.articles {
+    padding: 20px 18px;
+}
+
+.articles .img-bg {
+    width: 100%;
+}
+
+.flex-box {
+    display: flex;
+    justify-content: space-between;
+    margin: 22px 0;
+}
+
+.articles .topic {
+    color: #252641;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.articles .articles-text {
+    color: #696984;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180%;
+    /* 32.4px */
+    letter-spacing: 0.36px;
+}
+
+.articles-flex .articles .read img {
+    display: inline;
+    width: 44px;
+    height: 44px;
+}
+
+.articles-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.articles-user p {
+    display: inline;
+    color: #000;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.36px;
+}
+
+.articles-flex .view p {
+    display: inline;
+    color: #49BBBD;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.48px;
+}
